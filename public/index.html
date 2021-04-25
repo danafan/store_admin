@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>商家端</title>
+  <style type="text/css">
+  *{
+    padding: 0;
+    margin: 0;
+  }
+  body,html{
+    color: #333;
+    font-family: SourceHanSansSC-Regular;
+    background:rgba(253,252,251,1);
+  }
+  div{
+    box-sizing: border-box;
+    cursor: default;
+  }
+  input{
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  
+  input[type="number"] {
+    -moz-appearance: textfield;
+
+  }
+  .page{
+    margin-top: 10px;
+    display:flex;
+    justify-content: flex-end;
+  }
+  .el-loading-mask {
+    z-index: 10000!important;
+  }
+</style>
+</head>
+<body>
+  <div id="app"></div>
+</body>
+</html>
